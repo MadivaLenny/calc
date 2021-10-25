@@ -4,20 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#070707"
     android:paddingTop="8dp"
-    tools:context=".MainActivity"
-    android:background="#B3E5FC">
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:background="#FFB3E5FC"
+        android:background="#9C6842"
         android:ems="10"
-        android:fontFamily="casual"
+        android:fontFamily="monospace"
         android:gravity="end|center_vertical"
         android:maxLength="12"
+        android:textColor="#040303"
         android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +28,9 @@
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#FFB3E5FC"
+        android:background="#9C6842"
         android:ems="10"
-        android:fontFamily="casual"
+        android:fontFamily="monospace"
         android:gravity="end|center_vertical"
         android:maxLength="12"
         android:textSize="48sp"
@@ -64,11 +65,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_7"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonEight"
@@ -77,11 +79,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_8"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonNine"
@@ -90,9 +93,10 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
-                android:fontFamily="casual"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_9"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
                 android:typeface="normal" />
 
@@ -103,11 +107,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onOperator"
                 android:text="@string/_divide"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
         </TableRow>
 
         <TableRow
@@ -123,11 +128,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_4"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonFive"
@@ -136,11 +142,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_5"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonSix"
@@ -149,11 +156,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_6"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonMultiply"
@@ -162,11 +170,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onOperator"
                 android:text="@string/_multiply"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
         </TableRow>
 
         <TableRow
@@ -182,11 +191,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_1"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonTwo"
@@ -195,11 +205,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_2"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonThree"
@@ -208,11 +219,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_3"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonSubtract"
@@ -221,11 +233,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onOperator"
                 android:text="@string/_subtract"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
         </TableRow>
 
         <TableRow
@@ -241,11 +254,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDecimalPoint"
                 android:text="@string/_decimal"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonZero"
@@ -254,11 +268,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onDigit"
                 android:text="@string/_0"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonDelete"
@@ -267,11 +282,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onClear"
                 android:text="@string/clr"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
 
             <Button
                 android:id="@+id/buttonAdd"
@@ -280,11 +296,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onOperator"
                 android:text="@string/_add"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
         </TableRow>
 
         <TableRow
@@ -299,11 +316,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:background="@drawable/button"
+                android:fontFamily="monospace"
                 android:onClick="onEqual"
                 android:text="@string/_equal"
+                android:textColor="#9C6842"
                 android:textSize="24sp"
-                android:typeface="normal"
-                android:fontFamily="casual"/>
+                android:typeface="normal" />
         </TableRow>
     </TableLayout>
 
